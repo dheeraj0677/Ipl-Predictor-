@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2026 Match Predictor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://www.iplt20.com/img/favicon.ico">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header>
+        <div class="logo">
+            <h1>IPL Predictor <span>2026</span></h1>
+        </div>
+        <nav>
+            <a href="#today" class="active">Today's Match</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#standings">Standings</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="today" class="section">
+            <h2 class="section-title">Today's <span class="highlight">Match</span></h2>
+            <div id="today-container" class="card-grid">
+                <div class="loading">Loading today's match...</div>
+            </div>
+        </section>
+
+        <section id="schedule" class="section">
+            <h2 class="section-title">Upcoming <span class="highlight">Fixtures</span></h2>
+            <div id="schedule-container" class="schedule-list">
+                <div class="loading">Loading schedule...</div>
+            </div>
+        </section>
+
+        <section id="standings" class="section">
+            <h2 class="section-title">Team <span class="highlight">Power Rankings</span></h2>
+            <p class="subtitle">Based on historical performance and current form</p>
+            <div class="standings-table-container">
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Team</th>
+                            <th>Win Rate</th>
+                            <th>Matches</th>
+                            <th>Wins</th>
+                            <th>Losses</th>
+                        </tr>
+                    </thead>
+                    <tbody id="standings-body">
+                        <tr><td colspan="6" class="loading">Loading standings...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with AI • Data from 2016-2025 • Educational purposes only</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
