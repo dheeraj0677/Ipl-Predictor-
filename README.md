@@ -31,8 +31,6 @@ The app features a premium dark-themed UI showing:
 | ⚔️ H2H Stats | Head-to-head records between all teams |
 | 🏟️ Venue Analysis | Team performance broken down by venue |
 | 🎯 Confidence Score | Each prediction displays a confidence % |
-| ⚡ REST API | Clean FastAPI backend with multiple endpoints |
-| 🎨 Premium UI | Responsive dark-mode frontend — no frameworks |
 
 ---
 
