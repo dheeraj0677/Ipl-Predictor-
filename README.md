@@ -29,8 +29,6 @@ The app features a premium dark-themed UI showing:
 | 📅 Full IPL 2026 Schedule | Complete official fixture list with venues |
 | 📊 Team Standings | Win rates calculated from 2016–2025 data |
 | ⚔️ H2H Stats | Head-to-head records between all teams |
-| 🏟️ Venue Analysis | Team performance broken down by venue |
-| 🎯 Confidence Score | Each prediction displays a confidence % |
 
 ---
 
