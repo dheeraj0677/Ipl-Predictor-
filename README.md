@@ -43,7 +43,6 @@ Score = H2H (30%) + Overall Win Rate (20%) + Recent Form (30%) + Venue Win Rate 
 - **H2H (30%)** — Historical head-to-head win ratio
 - **Overall Form (20%)** — All-time win rate (2016–2025)
 - **Recent Form (30%)** — Last 5 matches performance
-- **Venue Advantage (20%)** — Win rate at the specific match venue
 
 Probabilities are normalized and a confidence % is returned alongside the predicted winner.
 
@@ -140,7 +139,7 @@ Navigate to **http://localhost:8000** in your browser — the frontend is served
 ## 🏟️ Teams Covered
 
 | Abbreviation | Team Name |
-|---|---|
+
 | MI | Mumbai Indians |
 | CSK | Chennai Super Kings |
 | RCB | Royal Challengers Bengaluru |
