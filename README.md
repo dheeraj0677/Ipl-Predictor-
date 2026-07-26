@@ -16,8 +16,6 @@
 The app features a premium dark-themed UI showing:
 - 🔴 **Today's Match** with live win probability bars
 - 📅 **Upcoming Fixtures** with predictions for each match
-- 📊 **Team Standings** based on historical performance
-- ⚔️ **Head-to-Head Stats** between any two teams
 
 ---
 
@@ -41,8 +39,6 @@ Score = H2H (30%) + Overall Win Rate (20%) + Recent Form (30%) + Venue Win Rate 
 ```
 
 - **H2H (30%)** — Historical head-to-head win ratio
-- **Overall Form (20%)** — All-time win rate (2016–2025)
-- **Recent Form (30%)** — Last 5 matches performance
 
 Probabilities are normalized and a confidence % is returned alongside the predicted winner.
 
