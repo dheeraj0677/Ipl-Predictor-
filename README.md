@@ -13,9 +13,6 @@
 
 ## 📸 Preview
 
-The app features a premium dark-themed UI showing:
-- 🔴 **Today's Match** with live win probability bars
-- 📅 **Upcoming Fixtures** with predictions for each match
 
 ---
 
